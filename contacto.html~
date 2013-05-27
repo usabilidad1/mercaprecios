@@ -1,0 +1,176 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html lang='es' xml:lang='es' xmlns="http://www.w3.org/1999/xhtml">
+  <head>  
+    <title>Mercaprecios</title>
+    <link rel="STYLESHEET" type="text/css" href="960.css">
+    <link rel="STYLESHEET" type="text/css" href="estilo_propio.css">
+    <link rel="STYLESHEET" type="text/css" href="estilomenu.css">
+    
+  </head>
+  
+  <script type="text/javascript">
+function validarForm(formulario) {
+  if(formulario.nombre.value.length==0) { //comprueba que no est� vac�o
+    formulario.nombre.focus();   
+    alert('No has escrito tu nombre'); 
+    return false; //devolvemos el foco
+  }
+  if(formulario.email1.value.length==0) { //comprueba que no est� vac�o
+    formulario.email1.focus();
+    alert('No has escrito tu e-Mail');
+    return false;
+  }
+  if(formulario.email1.value!=formulario.email2.value) {
+    formulario.email1.focus();            //comprueba que sean iguales
+	alert('Los e-Mails no coinciden');
+    return false;
+  }
+  if(formulario.consulta.value.length==0) {  //comprueba que no est� vac�o
+    formulario.consulta.focus();
+    alert('No has escrito ninguna consulta');
+    return false;
+  }
+    if(formulario.nombre.value.length>10) { //comprueba que no est� vac�o
+    formulario.nombre.focus();   
+    alert('Has superado el limite de car�cteres del nombre'); 
+    return false; //devolvemos el foco
+  }
+  if(formulario.email1.value.length>20) { //comprueba que no est� vac�o
+    formulario.email1.focus();
+     alert('Has superado el limite de car�cteres del email'); 
+    return false;
+  }
+  if(formulario.consulta.value.length>200) {  //comprueba que no est� vac�o
+    formulario.consulta.focus();
+     alert('Has superado el limite de car�cteres de tu pregunta'); 
+    return false;
+  }
+  return true;
+}
+</script> 
+  
+  
+  
+  
+  <body>
+    <div id= "CONTENIDO" class= "container_12">
+      <div id = "cabecera">
+        <div id = "textoCab" class= "grid_12">
+	  <p>MERCA PRECIOS</p>
+        </div>
+      </div>
+
+
+  <div id = "DivMenu" class = "grid_12">
+     <ul id = "menuHorizontal">
+       <li><a href="Index.html">Inicio</a></li>
+       
+       <li><a href="Clientes.html">Empresas</a>
+         <ul class="submenu">
+           <li>Favoritas</li>
+           <li>Buscador</li>
+         </ul>
+       </li>
+       
+       <li>Instalaciones
+         <ul class="submenu">
+           <li>Sede</li>
+           <li>Otros Paises</li>
+         </ul>
+       </li>
+       
+       <li>Contactar
+         <ul class="submenu">
+           <li>Localizacion</li>
+           <li>Sus Datos</li>
+           <li>Nuestros Datos</li>    
+         </ul>
+       </li>
+       
+       <li>Primera vez
+         <ul class="submenu">
+           <li>Registrate</li>
+           <li>Facebook</li>
+           <li>Twitter</li>    
+         </ul>
+       </li>
+     </ul>
+   </div>
+   
+
+    <tr>
+    <h2>CONTACTO</h2>
+    <p>
+      Mercado Online S.A. Si desea contactar con nosotros utilice el formulario de contacto
+    </p>
+    
+    
+  <div id = "DivContacto" class = "container_12">
+    <form method="post" action="mailto:menaser89@gmail.com" onSubmit="return validarForm(this);">
+    <table>
+    
+    <div id= "insertado" class = "grid_12"
+      
+          <tr>
+            <td>Nombre:</td>
+            <td><input type="text" name="nombre" id="nombre" /></td>
+          </tr>
+          
+          <tr>
+            <td>Correo electronico:</td>
+            <td><input type="text" name="email1" id="email1" /></td>
+          </tr>
+          
+          <tr>
+            <td>Confirme Correo:</td>
+            <td><input type="text" name="email2" id="email2" /></td>
+          </tr>
+    </div>
+    
+    <div id= "texto" class = "grid_12"
+        <tr>
+          <td colspan="2">Escribe lo que quieres preguntarnos:</td>
+        </tr>
+        <tr>
+          <td class="centrado" colspan="2">
+          <textarea cols="50" rows="5" name="consulta"></textarea></td>
+        </tr>
+        <tr>
+          <td class="centrado" colspan="2"><input type="submit" value="Enviar" />
+          <input type="reset" value="Restablecer" /></td>
+        </tr>
+    </div>
+      
+    </table>
+    </form>
+    
+    </p></th>
+  </tr>
+</div>
+
+   
+   
+   
+   
+ </div>	  
+   
+   
+   
+   
+  <div id = "linea" class = "container_12"> 
+    <HR></HR>
+  </div>
+  
+  <div id = "piepagina" class = "container_12">
+    <div id="Nombre" class="grid_12">
+      <p>Merca Precios: Mercado Online S.A. Santa Cruz de Tenerife, C/Molinos de Agua 5. 38649. Arona-Espana</p>
+      <p>Telefono:(+34)667667667</p>
+    </div>
+  </div>
+
+
+   
+  
+  </body>
+</html>

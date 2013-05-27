@@ -1,0 +1,94 @@
+<!-- <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"> -->
+
+<html lang='es' xml:lang='es' xmlns="http://www.w3.org/1999/xhtml">
+<!-- <html xmlns="http://www.w3.org/1999/xhtml"> -->
+  <head>
+    <title>Mercaprecios</title>
+    <link rel="STYLESHEET" type="text/css" href="960.css">
+    <link rel="STYLESHEET" type="text/css" href="estilo_propio.css"> 
+    <link rel="STYLESHEET" type="text/css" href="estilomenu.css">  
+  </head>
+  
+  <body>
+    <div id= "CONTENIDO" class= "container_12">
+      <div id = "cabecera">
+        <div id = "textoCab" class= "grid_12">
+	  <p>MERCA PRECIOS</p>
+        </div>
+      </div>
+    <div id = "DivMenu" class = "grid_12">
+      <ul id = "menuHorizontal">
+        <li><a style="filter:none" href="Index.html">Inicio</a></li>
+        
+        <li><a href="Clientes.html" style="red">Empresas</a>
+          <ul class="submenu">
+            <li>Favoritas</li>
+            <li>Buscador</li>
+          </ul>
+        </li>
+    
+        <li>Instalaciones
+          <ul class="submenu">
+            <li>Sede</li>
+            <li>Otros Paises</li>
+          </ul>
+        </li>
+       
+        <li><a href="contacto.html">Contactar</a>
+          <ul class="submenu">
+            <li>Localizacion</li>
+            <li>Sus Datos</li>
+            <li>Nuestros Datos</li>    
+          </ul>
+        </li>
+       
+        <li>Primera vez
+          <ul class="submenu">
+            <li>Registrate</li>
+            <li>Facebook</li>
+            <li>Twitter</li>
+          </ul>
+        </li>
+      </ul>
+   </div>
+      
+
+  <div id = "contenido2" class= "grid_7 alpha">
+    <h1>QUE ES MERCA PRECIOS?</h1>
+    <p> Merca Precios es una Red Social de apoyo para la venta y distribucion de productos de cualquier empresa. Su estructura interactiva
+    permite a los empresarios desarrollar sus competencias en el ambito empresarial en un entorno realista.</p>
+    
+    <p>El sistema esta ideado con el objetivo de familiarizar a los empresarios con la realidad virtual y nuevos canales de comunicacion, que se 
+    han creado en Internet. Al registrarse en la plataforma cada usuaruio tendra la ocasion de elaborar su propio perfil y establecer los roles 
+    propios del mundo empresarial, como por ejemplo el de jefe de tu propia tienda virtual.</p>
+
+    <p>Ademas el sistema facilita un servicio de Banca virtual, proveedores mayoristas y de servicios para aumentar el realismo de la simulacion.</p>
+
+    <p>Los usuarios del sistema trabajan en equipo comprometiendose en la evolucion de la plataforma y de su propia empresa, y desarrollando 
+    cualidades que mejoren la imagen de su empresa y facilitando de la mejor forma la compra de los clientes.</p>
+    
+    <p>Nuestro compromiso con usted es: coordinacion, responsabilidad, proactividad, profesionalidad...</p>
+    
+    <p>PRUEBE NUESTRE PLATAFORMA Y REGISTRESE!!!</p>
+    
+  </div>
+  <div id = "foto" class = "grid_5 alpha">
+    <img src="mercado.jpg" alt="Mercado Online" longdesc="Imagen de la portada"></img>
+<!--     <p><img src="chart.gif" alt="a complex chart" longdesc="chartdesc.html"/></p> -->
+  </div>
+  
+  <div id = "linea" class = "grid_12"> 
+    <HR></HR>
+  </div>
+  <div id = "piepagina" class = "container_12">
+    <div id="Nombre" class="grid_12">
+      <p>Merca Precios: Mercado Online S.A. Santa Cruz de Tenerife, C/Molinos de Agua 5. 38649. Arona-Espana</p>
+      <p>Telefono:(+34)667667667</p>
+    </div>
+  </div>
+  
+   
+  </div>
+  
+  </body>
+</html>

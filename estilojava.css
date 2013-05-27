@@ -1,0 +1,22 @@
+#slideshowDEMO { /* es el DIV contenedor que dimensionamos y centramos */
+margin-left: -40px;
+height: 300px;
+width: 960px;
+}
+
+#slide-images { /* es la lista con las imágenes */
+
+height: 300px;
+position: relative;
+width: 960px;
+}
+#slide-images li { /* cada item de la lista */
+display: block;
+position: absolute;
+}
+
+#slide-images  img { /* cada imagen */
+height: 300px;
+width: 960px;
+border-radius: 20px 20px 20px 20px;
+}

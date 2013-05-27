@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3c.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+
+  <head>
+      
+      <link rel="STYLESHEET" type="text/css" href="960.css">
+      <link rel="STYLESHEET" type="text/css" href="estilo_propio.css">
+      
+  </head>
+  
+
+  
+  
+  <body>
+
+   
+  
+  <div id= "CONTENIDO" class= "container_16">
+    <div id = "cabecera">
+      <h1><p align="center">MERCA PRECIOS</p></h1>
+   </div>
+
+    <div id = "menu" class= "grid_12">
+      <ul>
+         <li>Informacion</li>
+         <li>Fotos</li>
+         <li>Localizacion</li>
+         <li>Acerca de</li>
+      </ul>
+   </div>
+   
+
+  <div id="caja_8" class= "grid_8"> 
+    <div id = "contenido1" class= "grid_4 omega">
+      <img src="juanito.jpg" width="300" height="300" alt= "Local de Juan">
+    </div>
+
+    <div id="contenidoImagen" class="grid_4 omega">
+      <ul>
+	 <li><p><b><i>Nombre del Local: </i></b> VERDURAS JUANITO</p></li>
+	 <li><p><b><i>Nombre Vendedor: </i></b>Juan Perez</p></li>
+	 <li><p><b><i>Localizacion: </i></b><a href="https://maps.google.es/?ll=28.492748,-16.312063&spn=0.003838,0.004823&t=h&z=18" target="_blanc"> Plaza del Cristo<br></a></p></li>
+      </ul>
+    </div>
+  </div>
+
+<!--
+      <div id = "contenido2" class= "grid_4 alpha">
+	<p> Parrafo: Crear una página ejemplo en HTML, en la que se incorporen párrafos de texto de descripción.
+	Definir la estructura básica de la página: anchura fija de 770 píxel,
+	c cabecera y pie, columna central de contenidos de anchura 530 píxel y columna secundaria de contenidos de 200 píxel de anchura.
+	La cabecera tiene una altura de 100 píxel y una imagen de fondo llamada cabecera.jpg. 
+	Incorporar en la zona secundaria un menú. La fuente debe ser Arial, color negro, tamaño 1.5em. 
+	Los enlaces deben ser de color verde en estado normal, y rojo cuando se posiciona el cursor.
+	Si se han visitado la fuente debe ser verdana y de color azul.
+	Los párrafos deben mostrar una separación de 0.5em de su elemento superior.
+	Los elementos del menú deben tener un relleno de 0.3em y un margen inferior de 0.7em</p>
+      </div>-->
+    
+<!--      <div id = "contenido3" class= "grid_4 omega">
+	<p> Parrafo: Crear una página ejemplo en HTML, en la que se incorporen párrafos de texto de descripción.
+	Definir la estructura básica de la página: anchura fija de 770 píxel,
+	c cabecera y pie, columna central de contenidos de anchura 530 píxel y columna secundaria de contenidos de 200 píxel de anchura.
+	La cabecera tiene una altura de 100 píxel y una imagen de fondo llamada cabecera.jpg. 
+	Incorporar en la zona secundaria un menú. La fuente debe ser Arial, color negro, tamaño 1.5em. 
+	Los enlaces deben ser de color verde en estado normal, y rojo cuando se posiciona el cursor.
+	Si se han visitado la fuente debe ser verdana y de color azul.
+	Los párrafos deben mostrar una separación de 0.5em de su elemento superior.
+	Los elementos del menú deben tener un relleno de 0.3em y un margen inferior de 0.7em </p>
+      </div>-->
+<!--   </div> -->
+
+  
+<!--      <div id = "contenido4" class= "grid_4">
+	<p> Parrafo: Crear una página ejemplo en HTML, en la que se incorporen párrafos de texto de descripción.
+	Definir la estructura básica de la página: anchura fija de 770 píxel,
+	c cabecera y pie, columna central de contenidos de anchura 530 píxel y columna secundaria de contenidos de 200 píxel de anchura.
+	La cabecera tiene una altura de 100 píxel y una imagen de fondo llamada cabecera.jpg. 
+	Incorporar en la zona secundaria un menú. La fuente debe ser Arial, color negro, tamaño 1.5em. 
+	Los enlaces deben ser de color verde en estado normal, y rojo cuando se posiciona el cursor.
+	Si se han visitado la fuente debe ser verdana y de color azul.
+	Los párrafos deben mostrar una separación de 0.5em de su elemento superior.
+	Los elementos del menú deben tener un relleno de 0.3em y un margen inferior de 0.7em 
+	</p>
+      </div>-->
+   
+    </div>
+  
+  </body>
+</html>
