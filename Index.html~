@@ -33,11 +33,7 @@
           </li>
        
           <li><a href="contacto.html">Contactar</a>
-            <ul class="submenu">
-              <li>Localizacion</li>
-              <li>Sus Datos</li>
-              <li>Nuestros Datos</li>    
-            </ul>
+         
           </li>
        
           <li>Compartir
